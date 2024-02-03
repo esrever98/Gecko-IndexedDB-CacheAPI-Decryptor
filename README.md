@@ -13,10 +13,10 @@ When the tool finishes decryption process, **the decrypted files will be saved o
 Below is the example of the result file: it demonstrates which File was successfully decrypted by the Memory file with which Key
 
 ```plaintext
-db file - caches.sqlite, memory file - firefox.exe.dmp
+DB file - caches.sqlite, memory file - firefox.exe.dmp
 DECRYPT SUCCESS!! - key is 9520e6c371a218e28f436e84793fb6ea78501099c3712695f80d4fcea53ffd7a
 
-db file - {19f4a577-8110-4ef5-a5ee-df4e57b30b06}.final, memory file - firefox.exe.dmp
+BLOB file - {19f4a577-8110-4ef5-a5ee-df4e57b30b06}.final, memory file - firefox.exe.dmp
 DECRYPT SUCCESS!! - key is 488c91785d8bbb40ad837c56c23681ff4e7a16c9fa72abf0bca454be05c59416
 ```
 
