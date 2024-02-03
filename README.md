@@ -5,3 +5,4 @@ This Gecko-IndexedDB-CacheAPI-Decryptor is a proof-of-concept tool. This tool de
 
 
 # Note
+If there occurs on error about pycryptodome, you should erase first and install pycryptodome first
