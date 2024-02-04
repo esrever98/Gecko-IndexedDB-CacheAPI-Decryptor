@@ -1,7 +1,7 @@
 # Gecko-IndexedDB-CacheAPI-Decryptor
 This Gecko-IndexedDB-CacheAPI-Decryptor is a proof-of-concept tool. 
 
-This tool decrypts the Client-Side Storage artifacts **(especially on IndexedDB, Cache API)** generated during the Private Session of Gecko-based browsers **(Firefox, Tor)** based on CipherKey searching in the Memory Files
+This tool decrypts the **Client-Side Storage artifacts** **(especially on IndexedDB, Cache API)** generated during the Private Session of Gecko-based browsers **(Firefox, Tor)** based on CipherKey searching in the Memory Files
 
 # Usage
 When you execute the python code, the folder selection prompt will be displayed for two times:
@@ -10,7 +10,7 @@ First prompt is for selecting the *Memory Folder Path*, and Second one is for se
 
 When the tool finishes decryption process, **the decrypted files will be saved on the same path to the original files, and result file will be saved on the same path to the tool with filename indicating the timestamp of execution**
 
-Below is the example of the result file: it demonstrates which File was successfully decrypted by the Memory file with which Key
+Below is the example of the result file: it demonstrates **which File was successfully decrypted by the Memory file with which Key**
 
 ```plaintext
 DB file - caches.sqlite, memory file - firefox.exe.dmp
